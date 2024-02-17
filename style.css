@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding: 10px;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.project {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    display: inline-block;
+}
+#skills ul{
+    list-style-type: none;
+    margin-left: 37vw;
+}
+
+.footer {
+   
+    text-align: center;
+    align-items: center;
+    padding: 10px 0;
+   
+    width: 100%;
+    
+}
+
+@media (max-width: 600px) {
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.skills-list li .skill-name {
+    margin-right: 10px;
+}
+
+.skills-list li .skill-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.skills-list li .progress-bar {
+    width: 100px;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+
+.skills-list li .progress-bar .progress {
+    height: 100%;
+    background-color: #4caf50;
+}
+
+/* Example usage */
+.skills-list li .skill-icon {
+    background-image: url('path/to/icon.png');
+    background-size: cover;
+}
+
+.skills-list li .progress-bar .progress {
+    width: 10%; /* Adjust the width based on skill level */
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 40px;
+    
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-on {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contact-on a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #4caf50;
+    text-decoration: none;
+}
+
+.contact-on a:hover {
+    text-decoration: underline;
+}
+
